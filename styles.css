@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mate+SC&display=swap');
+.body {
+  background: url("https://www.wallpaperuse.com/wallp/2-28455_m.jpg");
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#board {
+  background: linear-gradient(white, grey);
+  width: 120vmin;
+  height: 92vmin;
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(18, 1fr);
+}
+.headd {
+  background: linear-gradient(red,yellow);
+  border: 2px solid purple;
+  border-radius: 9px;
+  transform: scale(1.02);
+}
+.foodi {
+  background: linear-gradient(red,purple);
+  border: .25vmin solid black;
+  border-radius:8px;
+}
+.snake {
+  background-color: purple;
+  border: .25vmin solid white;
+  border-radius:12px;
+}
+#scoreBox{
+  position:absolute;
+  top:9px;
+  right:100px;
+  font-size:39px;
+  font-weight:bold;
+  font-family: 'Indie Flower', cursive;
+font-family: 'Mate SC', serif;
+}
+#hiscoreBox{
+  position:absolute;
+  top:60px;
+  right:100px;
+  font-size:39px;
+  font-weight:bold;
+  font-family: 'Indie Flower', cursive;
+font-family: 'Mate SC', serif;
+}
+
